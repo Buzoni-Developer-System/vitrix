@@ -5,7 +5,7 @@ interface CardPageProps {
 }
 
 function Header({ data }: CardPageProps) {
-  const waLink = ' `https://wa.me/` ' + data.whatsapp
+  const waLink = 'https://wa.me/' + data.whatsapp
   return (
     <div>
       <div className="h-28 bg-[#1a4a8a] relative overflow-hidden">
