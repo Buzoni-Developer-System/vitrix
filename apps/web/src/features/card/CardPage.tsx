@@ -74,7 +74,7 @@ function Footer() {
   return (
     <div className="text-center mt-5 pb-5">
       <button onClick={toggle} className="text-[10px] tracking-widest uppercase text-gray-300">
-        Vitrix · Cartão Digital
+        VITRIX · CARTÃO PESSOAL DIGITAL
       </button>
       <div id="footer-dev" className="hidden mt-2">
         <a href={buzoniWa} target="_blank" rel="noreferrer" className="text-[11px] text-gray-400">
