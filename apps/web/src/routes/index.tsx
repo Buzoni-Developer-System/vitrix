@@ -6,7 +6,7 @@ export function AppRoutes() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/alexandre" element={<CardPage data={drAlexandre} />} />
+        <Route path="/dr-alexandre" element={<CardPage data={drAlexandre} />} />
       </Routes>
     </BrowserRouter>
   )

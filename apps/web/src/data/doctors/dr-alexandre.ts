@@ -1,7 +1,7 @@
 import type { DoctorCard } from '../../types/card.types'
 
 export const drAlexandre: DoctorCard = {
-  slug: 'alexandre',
+  slug: 'dr-alexandre',
   theme: 'health',
   name: 'Dr. Alexandre Frascino',
   title: 'Cirurgião Bucomaxilofacial',
