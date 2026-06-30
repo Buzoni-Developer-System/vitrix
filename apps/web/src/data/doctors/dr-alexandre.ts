@@ -24,7 +24,7 @@ export const drAlexandre: DoctorCard = {
   ],
   links: [
     { id: 'review', label: 'Sua opinião é muito importante', sublabel: 'Google · ajude outros pacientes', icon: 'star', href: 'https://g.page/r/CWluL_Ps2ileEBM/review', highlight: true },
-    { id: 'schedule', label: 'Agendar consulta', sublabel: 'WhatsApp do consultório', icon: 'calendar-plus', href: ' `https://wa.me/5511998946060` ' },
+    { id: 'schedule', label: 'Agendar consulta', sublabel: 'WhatsApp do consultório', icon: 'calendar-plus', href: 'https://wa.me/5511998946060' },
     { id: 'website2', label: 'Conheça meu trabalho', sublabel: 'aledefra.com.br', icon: 'file-text', href: 'https://www.aledefra.com.br' },
     { id: 'address', label: 'Consultório', sublabel: 'R. Pedro de Toledo, 108 · 15º andar · Vila Clementino', icon: 'building', href: 'https://www.google.com/maps/search/Dr.+Alexandre+Frascino+Bucomaxilofacial+Vila+Clementino+Sao+Paulo' },
   ],
