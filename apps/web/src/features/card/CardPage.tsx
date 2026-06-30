@@ -40,11 +40,14 @@ function Header({ data }: CardPageProps) {
 function IconGrid({ data }: CardPageProps) {
   return (
     <div className="grid grid-cols-4 gap-2 px-5 mb-4">
-      {data.iconActions.map(action => (
-        <a key={action.id} href={action.href} target="_blank" rel="noreferrer" className="flex flex-col items-center gap-1 bg-white border border-gray-100 rounded-xl py-3 px-1">
-          <span className="text-[#1a4a8a] text-xs font-medium">{action.label}</span>
-        </a>
-      ))}
+      {data.iconActions.map(action => {
+        const isMailto = action.href.indexOf('mailto:') === 0
+        return (
+          <a key={action.id} href={action.href} target={isMailto ? undefined : '_blank'} rel={isMailto ? undefined : 'noreferrer'} className="flex flex-col items-center gap-1 bg-white border border-gray-100 rounded-xl py-3 px-1">
+            <span className="text-[#1a4a8a] text-xs font-medium">{action.label}</span>
+          </a>
+        )
+      })}
     </div>
   )
 }
